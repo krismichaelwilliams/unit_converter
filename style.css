@@ -1,0 +1,72 @@
+/* purple - #6943ff
+background-dark - #1f2937
+background-light - #273549
+header-text/section - white
+label text/border - #797ba4 */
+
+body {
+  background: #1f2937;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  background: #d1d5db;
+  margin-top: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #6943ff;
+  padding: 50px;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #273549;
+  border-radius: 5px;
+  margin: 20px 30px;
+}
+
+.results-label {
+  color: #797ba4;
+  margin: 20px 0 5px 0;
+}
+
+.results-text {
+  color: #d1d5db;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  color: #d1d5db;
+  margin: 0;
+}
+
+input {
+  background: none;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 80px;
+  width: 120px;
+  margin: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #d1d5db;
+  text-align: center;
+}
+
+section {
+  margin-top: 50px;
+}
