@@ -1,14 +1,3 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-// declare all element variables
-// get value of user input
-// create a function for each conversion
-// add an event listener to convert button that calls each function
-//
-
 const lengthEl = document.getElementById("length");
 const volumeEl = document.getElementById("volume");
 const massEl = document.getElementById("mass");
@@ -35,10 +24,6 @@ function poundKilo(num) {
   const conversion = `${num} kilos = ${toPound} pounds | ${num} pounds = ${toKilo} kilos`;
   return conversion;
 }
-
-// console.log(feetMeter(20));
-// console.log(gallonLiter(20));
-// console.log(poundKilo(20));
 
 btnEl.addEventListener("click", function () {
   lengthEl.textContent = feetMeter(inputEl.value);
